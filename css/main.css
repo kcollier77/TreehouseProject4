@@ -1,0 +1,30 @@
+.header {
+    background-color: white;
+    text-align: center;
+    z-index: 1000;
+    height: 90px;
+    transition: 1s;
+}
+
+input {
+    width: 460px;
+    margin-top: 45px;
+    
+}
+
+#wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+#gallery {
+  margin: auto;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+    margin: 15px 30px;
+}
+

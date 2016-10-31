@@ -13,7 +13,7 @@ $("#search").keyup(function(){
     var filter = $(this).val();
     // Loop through the comment list
     $("#gallery img").each(function(){
-        // If the list item does not contain the title attr, fade it out
+        // If the list item does not contain the alt attribute, fade it out
         if ($(this).attr("alt").search(new RegExp(filter, "i")) < 0) {
             $(this).fadeOut();
         // Show the list item if the phrase matches
